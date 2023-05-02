@@ -1,5 +1,4 @@
 vim.opt.backup = false
-vim.opt.colorcolumn = "80"
 vim.opt.expandtab = true
 vim.opt.guicursor = ""
 vim.opt.hlsearch = false
