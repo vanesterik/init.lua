@@ -33,6 +33,15 @@ require("lazy").setup({
         "nvim-tree/nvim-web-devicons",
       },
     },
+    {
+      "github/copilot.vim",
+    },
+    {
+      "goolord/alpha-nvim",
+      dependencies = {
+        "nvim-tree/nvim-web-devicons",
+      },
+    },
     { "hrsh7th/cmp-buffer" },
     { "hrsh7th/cmp-nvim-lsp" },
     { "hrsh7th/cmp-nvim-lua" },
