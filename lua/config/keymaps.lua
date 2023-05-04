@@ -3,7 +3,8 @@ vim.keymap.set("n", "<C-u>", "<C-u>zz") -- Page up
 vim.keymap.set("n", "<C-d>", "<C-d>zz") -- Page down
 vim.keymap.set("n", "<C-j>", "<cmd>cprev<CR>zz")
 vim.keymap.set("n", "<C-k>", "<cmd>cnext<CR>zz")
-vim.keymap.set("n", "<C-s>", "<cmd>w<CR>zz")
+vim.keymap.set("n", "<C-s>", "<cmd>w<CR>")
+vim.keymap.set("v", "<C-a>", ":'<,'>sort<CR>")
 vim.keymap.set("n", "<leader><leader>", function()
   vim.cmd("so")
 end)

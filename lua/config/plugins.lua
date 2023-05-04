@@ -85,6 +85,7 @@ require("lazy").setup({
       "nyoom-engineering/oxocarbon.nvim",
       priority = 1000,
     },
+    { "numToStr/Comment.nvim" },
     { "rafamadriz/friendly-snippets" },
     { "saadparwaiz1/cmp_luasnip" },
     { "ThePrimeagen/harpoon" },

@@ -1,4 +1,5 @@
 vim.opt.backup = false
+vim.opt.clipboard = "unnamedplus"
 vim.opt.expandtab = true
 vim.opt.guicursor = ""
 vim.opt.hlsearch = false
