@@ -18,6 +18,7 @@ lsp.format_on_save({
     ["null-ls"] = {
       "css",
       "javascript",
+      "json",
       "lua",
       "python",
       "typescript",
