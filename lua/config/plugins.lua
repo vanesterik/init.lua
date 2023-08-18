@@ -27,6 +27,9 @@ require("lazy").setup({
       },
     },
     {
+      "folke/which-key.nvim",
+    },
+    {
       "github/copilot.vim",
     },
     { "lewis6991/gitsigns.nvim" },
