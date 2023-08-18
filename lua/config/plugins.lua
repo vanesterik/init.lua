@@ -21,13 +21,6 @@ require("lazy").setup({
   },
   spec = {
     {
-      "folke/noice.nvim",
-      dependencies = {
-        "MunifTanjim/nui.nvim",
-        "rcarriga/nvim-notify",
-      },
-    },
-    {
       "folke/trouble.nvim",
       dependencies = {
         "nvim-tree/nvim-web-devicons",
@@ -36,21 +29,7 @@ require("lazy").setup({
     {
       "github/copilot.vim",
     },
-    {
-      "goolord/alpha-nvim",
-      dependencies = {
-        "nvim-tree/nvim-web-devicons",
-      },
-    },
-    { "hrsh7th/cmp-buffer" },
-    { "hrsh7th/cmp-nvim-lsp" },
-    { "hrsh7th/cmp-nvim-lua" },
-    { "hrsh7th/cmp-path" },
-    { "hrsh7th/nvim-cmp" },
-    { "jose-elias-alvarez/null-ls.nvim" },
-    { "L3MON4D3/LuaSnip" },
     { "lewis6991/gitsigns.nvim" },
-    { "neovim/nvim-lspconfig" },
     { "nvim-lualine/lualine.nvim" },
     {
       "nvim-telescope/telescope.nvim",
@@ -86,31 +65,7 @@ require("lazy").setup({
       priority = 1000,
     },
     { "numToStr/Comment.nvim" },
-    { "rafamadriz/friendly-snippets" },
-    { "saadparwaiz1/cmp_luasnip" },
     { "ThePrimeagen/harpoon" },
-    { "tpope/vim-fugitive" },
     { "tpope/vim-sleuth" },
-    { "tpope/vim-rhubarb" },
-    {
-      "VonHeikemen/lsp-zero.nvim",
-      branch = "v2.x",
-      depedencies = {
-        { "hrsh7th/cmp-buffer" },
-        { "hrsh7th/nvim-cmp" },
-        { "neovim/nvim-lspconfig" },
-        { "hrsh7th/cmp-path" },
-        { "saadparwaiz1/cmp_luasnip" },
-        { "jose-elias-alvarez/null-ls.nvim" },
-        { "hrsh7th/cmp-nvim-lsp" },
-        { "hrsh7th/cmp-nvim-lua" },
-        { "L3MON4D3/LuaSnip" },
-        { "rafamadriz/friendly-snippets" },
-        { "williamboman/mason.nvim" },
-        { "williamboman/mason-lspconfig.nvim" },
-      },
-    },
-    { "williamboman/mason.nvim" },
-    { "williamboman/mason-lspconfig.nvim" },
   },
 })
